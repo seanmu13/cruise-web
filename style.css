@@ -1,0 +1,94 @@
+/* -- All Colors --
+Blue: 0191CE
+Gray: C0C0C0
+Blue: 00AEFF
+Orange: F57325
+Pink-Purple: E44097
+Purple: 6A439C
+Dark Blue: 0253A2
+Light Blue: 3048FF
+*/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+body {
+	background-image:url('back.png');
+	background-repeat:repeat-x;
+	background-color:#E8D1FF;
+}
+
+.headline {
+	font: 25px arial;
+	color:#CC0A00;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+.info {
+	color: gray;
+}
+
+.name, .date {
+	color:#FF494F;
+}
+
+.info, .name, .date {
+	font: 9px sans-serif;
+}
+
+.text {
+	font: 10px Helvetica;
+	line-height:200%;
+}
+
+#content {
+	width: 1024px;
+	margin: auto auto; /* or 0px auto */
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#banner {
+	color: #0191CE;
+	text-align: center;
+	font: 50px sans-serif;
+	border: 1px dashed #C0C0C0;
+	clear: both;
+}
+
+#leftcol {
+	margin-top: 10px;
+	width: 20%;
+	text-align: left;
+	font: 14px sans-serif;
+	border: 1px dashed #C0C0C0;
+	float: left;
+}
+
+#maintext {
+	text-align: left;
+	font: 14px sans-serif;
+	border: 1px dashed #C0C0C0;
+	margin: 10px 22% 0px 22%;
+}
+
+#ads {
+	margin-top: 10px;
+	width: 20%;
+	text-align: left;
+	font: 14px sans-serif;
+	border: 1px dashed #C0C0C0;
+	float: right;
+}
+
+#footer {
+	margin-top: 10px;
+	text-align: center;
+	font: 14px sans-serif;
+	border: 1px dashed #C0C0C0;
+	clear: both;
+}
